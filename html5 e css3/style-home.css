@@ -1,0 +1,235 @@
+body{	
+	font-family: 'Montserrat', sans-serif;
+}	
+
+header{
+	background: #CCCCCC;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 1040px;
+	margin: 50px auto;
+}
+
+.logoimg{
+	width: 350px;
+	height: 1px 55px;
+}
+
+nav {
+	position: absolute;
+	top: 28px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 10 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: none;
+	padding: 0 8px 0 0;
+
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.texto-principal p{
+	margin: 0 22px 1em;
+	text-align: center;
+}
+
+/* logo principal*/
+.logo1{
+	width: 30%;
+	margin-bottom: 15px;
+	
+}	
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2.5em;
+	margin: 0 0 1em;
+}
+
+
+.rodizioimg{
+	width: 100px;
+	float: left;
+    margin: -105px 20px 0px 160px;
+}
+
+.pistaoimg{
+	width: 100px;
+	float: right;
+	margin: -100px 190px 0 0;
+
+}
+	
+
+}
+p {
+	font-size: 20px;
+
+}
+
+h2 {
+	
+	font-size: 35px;
+}
+
+em strong {
+	color: red;
+}
+
+.mapa{
+	padding: 1em 0;
+	background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	font-size: 20px;
+}
+
+.mapa iframe{
+	margin: 2em 0 0 0;
+	width: 100%;
+}
+
+.estabelecimento{
+
+	text-align: center;
+	font-size: 2em;
+}
+
+.localizacao{
+	font-size: 1em;
+}
+
+.localizacao{
+	font-style: italic;
+}
+
+.mapa-conteudo{
+	width: 940px;
+	width: 100%;
+
+	
+}
+
+
+
+ul{
+	display: inline-block;
+}
+
+.beneficios{
+	background: #888888;
+
+}
+
+
+.titulo-beneficios{
+	text-align: center;
+	font-size: 3em;
+}
+
+.lista-beneficios{
+	
+}
+
+.itens-beneficios{
+	font-size: 20px;
+	font-style: italic;
+	margin: 0 0 1em;
+}
+
+.itens-beneficios:first-child{
+	font-weight: bold;
+}
+
+.itens-beneficios:before{
+	content: "★";
+}
+.imgbeneficios{	
+	margin: 0 0 0 30px;	
+	opacity: 0.3;
+	transition: 400ms;
+
+}
+
+.imgbeneficios:hover {
+	opacity: 1;
+}
+
+.fundo{
+	background: #888888
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+
+}
+
+.chair{
+	width: 115px ;
+	height: 115px;
+}
+.copy{
+	color: #C0C0C0;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px){
+	 div.mapa-conteudo, .caixa, .titulo-principal, p, h3.estabelecimento, h3.titulo-principal, ul.lista-beneficios, img.logo1, .conteudo-beneficios, footer, h2, header, h1  {
+		width: auto;
+	}
+
+.rodizioimg {
+    width: 100px;
+    float: left;
+    margin: -67px 20px 0px 253px;
+}
+
+.pistaoimg {
+    width: 100px;
+    float: right;
+    margin: -98px 256px 0 0;
+}
+
+.logoimg{
+	width: 350px;
+	padding: 0 0 10px 0;
+
+}
+
+nav {
+	top: 28px;
+	right: 0;
+}
+
+nav a{
+	text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 78px 9px 0 5px;
+}
+}

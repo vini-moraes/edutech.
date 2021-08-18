@@ -1,0 +1,280 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{	
+	background: #CCCCCC;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 1040px;
+	margin: 50px auto;
+}
+
+.logoimg{
+	width: 350px;
+	height: 1px 55px;
+}
+
+
+nav ul {
+	position: absolute;
+	top: 28px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 10 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: none;
+	margin-left: 8px;
+
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+.produtos{
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display:  inline-block;
+	text-align: center;
+	width: 25%;
+	vertical-align: top;
+	margin: 0 3%;
+	padding: 15px 8px;
+	box-sizing: border-box;
+	border: 5px solid #000000;
+	border-radius: 20px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2{
+	font-size: 35px;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-style: bold;
+}
+
+.imagem{
+	height: 260px;
+	width: 250px;
+}
+
+.desc{
+	font-size: 25px;
+}
+
+.preco{
+	font-size: 30px	;
+	font-style: bold;
+	margin-top: 25px; 	
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+
+}
+
+.chair{
+	width: 115px ;
+	height: 115px;
+}
+.copy{
+	color: #C0C0C0;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
+form{
+	margin: 40px 29px;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 25px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	font-size: 25px;
+	margin: 0 0 20px;
+	padding: 6px 11px;
+	width: 55%	;
+}
+
+.form{
+	width: 660px;
+}
+
+.check{
+	margin: 40px 0;
+}
+
+.enviar{
+	width: 30%;
+	padding: 15px 0;
+	background: darkseagreen;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 7px;
+	transition: 1.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background: green;
+	transform: scale(1.1);
+}
+
+table{
+	margin: 40px 80px  40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 15px 25px;
+}
+
+@media screen and (max-width: 480px){
+	div.caixa, form .caixa, a, ul.produtos, li, nav ul, nav a, .logoimg, div.form {
+		width: auto;
+	} 
+
+.caixa {
+	position: relative;
+	width: 975px;
+	margin: 50px auto;
+}
+
+.logoimg{
+	width: 350px;
+	padding: 0 0 10px 0;
+
+}
+
+nav {
+	top: 28px;
+	right: 0;
+}
+
+nav a{
+	text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 78px 9px 0 5px;
+    margin-left: 8px;
+}
+
+
+h2{
+	font-size: 6px
+}
+.preco{
+	font-size: 12px
+}
+
+
+.desc{
+	font-size: 14px
+}
+
+.produtos h2 {
+	font-size: 16px;
+	font-style: bold;
+}
+
+.imagem{
+	height: 90px;
+	width: 88px;
+}	
+
+.produtos li {
+	display:  inline-block;
+	text-align: center;
+	width: 28%;
+	vertical-align: top;
+	margin: 0 2%;
+	padding: 19px 8px;
+	box-sizing: border-box;
+	border: 5px solid #000000;
+	border-radius: 20px;
+}
+.navegacao{
+	margin: 0 0 0 0;
+	padding: 0 10px 0 10px;
+	display: inline;
+	font-size: 10px;
+
+}
+
+.produtos li:hover h2{
+	font-size: 1px;
+}
+
+.form{
+	width: 1px;
+}
+
+.enviar{
+	width: 70%;
+	padding: 15px 0;
+	background: darkseagreen;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 7px;
+	transition: 1.5s all;
+	cursor: pointer;
+}
+
+form label, form legend{
+	display: flex;
+    font-size: 30px;
+    margin: 17px 0 10px 14px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+}
