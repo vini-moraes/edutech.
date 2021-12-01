@@ -1,0 +1,26 @@
+.header{
+    background-color: #282d32;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carrinho{
+    width: 70px;
+    height: 100%;
+    
+}
+
+
+
+.logo__header{
+    width: 300px;
+    height: 100%;
+    
+} 
+
